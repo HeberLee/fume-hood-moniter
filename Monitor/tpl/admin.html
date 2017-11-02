@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./tpl/assets/css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./tpl/admin.css">
+</head>
+
+<body>
+  <!-- nav -->
+  <div class="nav-box" id="navBox">
+    <div class="logo">
+      后台编辑页
+    </div>
+    <ul class="nav">
+      <li class="cur">
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+          <span class="nav-name">地图</span>
+          <div class="triangle_border_left">
+            <span></span>
+          </div>
+        </a>
+      </li>
+
+      <li class="nav-hidden" id="navHidden">
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+          <span class="nav-name">收起</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- nav end-->
+  <!--content -->
+  <div class="container-box">
+    <!-- head -->
+    <div class="head">
+      <div class="tag">地图</div>
+      <div class="setting">
+        <a href="javascript:;">
+          <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>消息<span class="badge">4</span>
+          </button>
+        </a>
+        <a href="javascript:;">
+          <button type="button" class="btn btn-warning">
+            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>设置
+          </button>
+        </a>
+        <a href="javascript:;">
+          <button type="button" class="btn btn-info" id="loginOut">
+            <span class="glyphicon glyphicon-log-out""aria-hidden="true"></span>登出
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- head end-->
+    <div class="container">
+      <div class="white-box">
+        <div>
+          <div id="l-map"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--content end -->
+  <script src="./tpl/assets/js/jquery1.11.min.js"></script>
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=Eo0Ga2S25iAqZ8DyWdpyUge97LqqLBob"></script>
+  <script src="./tpl/map.js"></script>
+  <!-- <script type="text/javascript" src="wangEditor.min.js"></script> -->
+  <script src="./tpl/admin.js"></script>
+</body>
+
+</html>

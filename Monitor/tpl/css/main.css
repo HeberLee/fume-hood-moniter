@@ -1,0 +1,244 @@
+body {
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: '微软雅黑';
+}
+nav{
+    position: fixed!important;
+    z-index: 999;
+    top: 0;
+    box-shadow: 0 0 1px rgba(0,0,0,0.25);
+    padding: 10px;
+}
+.navbar-default{
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+}
+.navbar-default a{
+    color: #000!important;
+}
+.main {
+    margin-top: 100px;
+}
+button{
+    outline:none!important ;
+}
+a:hover{
+text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+/*左侧导航区*/
+/*.aside{*/
+    /*position: fixed!important;*/
+    /*height: 100%;*/
+    /*top: 100px;*/
+    /*background-color: #f0f6f6;*/
+    /*border-right: 1px solid #cedfea;*/
+/*}*/
+.a_title{
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+.btn-group.open .dropdown-toggle {
+    box-shadow: none;
+}
+.dis_block{
+    display: block;
+}
+#noData{
+    /*text-align: center;*/
+    display: none;
+    color: #575757;
+    margin-left: 25px;
+}
+/*.dataChoose {*/
+    /*margin-bottom: 20px;*/
+    /*!*margin-left: 25px;*!*/
+    /*clear: both;*/
+/*}*/
+.dropdown-menu>li>a.aActive,.dropdown-menu>li>a.historyActive{
+    background-color:rgb(92,184,92);
+    color:#ffffff;
+}
+.pointer{
+    cursor: pointer;
+}
+/*{*/
+    /*padding: 3px 20px ;*/
+/*}*/
+.dropSelects{
+    padding: 3px 30px 3px 30px ;
+}
+select,.dropLabel{
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.button-font{
+    font-size: 13px;
+    padding-bottom: 0!important;
+    padding-top: 0!important;
+    margin-top: -3px!important;
+    height: 21px;
+}
+
+/*我的信息*/
+.myInfoData {
+    padding-left: 20px;
+    line-height: 40px;
+    border-bottom: 2px solid #e6e6e6;
+    overflow: hidden;
+}
+.editInfo {
+    line-height: 40px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.fa {
+    margin-right: 10px;
+    width: 16px;
+    height: 14px;
+}
+.editInfo>i.fa{
+    margin-right: 5px;
+}
+
+/* 登录 */
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .75;
+    filter: opacity(75);
+    z-index: 1000;
+}
+
+.login {
+    position: fixed;
+    border-radius: 10px;
+    z-index: 1001;
+    background: #fff;
+}
+
+
+/* 地图 */
+
+@media screen and (min-width: 450px) {
+    #l-map {
+        height: 700px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    #l-map {
+        height: 550px;
+        width: 100%;
+    }
+}
+
+.BMap_bubble_title {
+    text-align: center;
+}
+
+.map-table {
+    width: 100%;
+    height: 100px;
+}
+.map-table td {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    width: 33%;
+}
+.map-table td span {
+    height: 100%;
+    width: 90%;
+    line-height: 34px;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 10px;
+    background: #1163b9;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    color: #fff;
+    background: #575757;
+}
+
+
+/*manage*/
+.input_group div{
+    margin: 20px ;
+}
+/*.input_group{*/
+    /*margin-top: 50px;*/
+/*}*/
+.input_group input{
+    border-radius: 4px 4px;
+    margin: 0 0 0 10px;
+    height: 36px;
+    width: 240px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding-left: 8px;
+}
+.input_group span{
+    display: inline-block;
+    width: 65px;
+}
+.submit{
+    padding-left: 0!important;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 99px!important;
+    background-color: #000000;
+    color: #fff;
+}
+
+/*search*/
+.equip_search input{
+    /*width: 500px;*/
+    max-width: 720px;
+    width: calc(100% - 30px);
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding-left: 8px;
+    border-radius: 4px 4px;
+    display: inline!important;
+    margin-bottom: 20px;
+}
+.equip_search span{
+    display: inline-block;
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.equip_all{
+    margin-bottom: 20px;
+}
+table a{
+    color: #2277da;
+}
